@@ -32,6 +32,7 @@ JavaScriptで書かれたクライアントとPythonで書かれたサーバー�
 
 1. ターミナルで `python rpc_server.py` を実行
 2. ターミナルで `node rpc_clients.js` を実行
+
 ![rpc](https://github.com/tontatonta/Remote-Procedure-Call/assets/148293712/cf52623d-fc3c-49d3-83f1-ed3ed6e7fa71)
 
 ## プロトコル
