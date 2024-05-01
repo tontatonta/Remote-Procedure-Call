@@ -28,6 +28,13 @@ JavaScriptで書かれたクライアントとPythonで書かれたサーバー�
   - `validAnagram(a, b)`: 2つの文字列が有効なアナグラムであるかどうかをチェックします。
   - `sort(s)`: 入力文字列の文字をソートします。
 
+## 具体例
+
+1. ターミナルで `python rpc_server.py` を実行
+2. ターミナルで `node rpc_clients.js` を実行
+3. 
+![rpc](https://github.com/tontatonta/Remote-Procedure-Call/assets/148293712/cf52623d-fc3c-49d3-83f1-ed3ed6e7fa71)
+
 ## プロトコル
 - クライアントとサーバーはTCPソケットを介して通信します。
 - リクエストとレスポンスはJSON形式でやり取りされます。
